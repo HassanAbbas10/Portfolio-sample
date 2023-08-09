@@ -1,0 +1,68 @@
+.profile {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+ /* Glassmorphcode*/
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.profile_name {
+  line-height: 18px;
+  padding: 20px;
+}
+.profile_name .name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+.profile_name .title {
+  font-size: 13px;
+  color: white;
+}
+.profile_image {
+  margin-top: -10px;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+.profile_image img {
+  width: 100%;
+}
+.profile_info{
+  top: 0;
+  left: 0;
+  margin: -40px 10px 30px;
+}
+.profile_info .timeline .timeline_content{
+margin-top: 2px;
+margin-bottom: 12px;
+}
+.timeLine_content{
+  font-size: 13.5px !important;
+  color: rgb(217, 252, 252) !important;
+  font-weight: 300 !important;
+  text-decoration: none;
+
+}
+.timeLine_text > a{
+  color: rgb(217, 252, 252) !important;
+  text-decoration: none;
+}
+.timeLine_text > span{
+color: rgb(228, 193, 106);
+}
+.timeLineItem_text > span{
+  color: rgb(228, 193, 106);
+  }
+ .profile .button_container{
+  width:100%;
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10px;
+ }
+
+
